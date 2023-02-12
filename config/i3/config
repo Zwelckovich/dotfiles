@@ -196,7 +196,7 @@ mode "resize" {
 bindsym $mod+r mode "resize"
 
 # Programs
-exec --no-startup-id set xkbmap de
+exec --no-startup-id setxkbmap de
 exec --no-startup-id numlockx on
 exec_always pkill -9 polybar ; polybar main
 exec_always killall picom ; picom -b
