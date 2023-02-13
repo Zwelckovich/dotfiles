@@ -219,4 +219,4 @@ bar {
 # ROFI SCRIPTS:
 
 # Rofi drun menu
-#bindsym $mod+d exec "rofi -show run"
+bindsym $mod+d exec "rofi -show run"
