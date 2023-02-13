@@ -1,8 +1,8 @@
 for_window [class   = ".*"] title_format "%class"
 title_align center
 
-font Noto Mono Nerd Font Complete 10
-font pango: Noto Mono Nerd Font Complete 10
+font NotoMono Nerd Font Mono 10
+font pango: NotoMono Nerd Font Mono 10
 
 # Set inner/outer gaps
 gaps inner 15
@@ -203,20 +203,20 @@ exec_always killall picom ; picom -b
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
 exec --no-startup-id nm-applet
-exec --no-startup-id feh --bg-scale ~/Downloads/wallpaper/nebula.jpg
+exec_always --no-startup-id feh --bg-scale ~/wallpaper/nebula.png
 
 # Damons
-exec systemctl --user enable cronie.service
-exec systemctl --user start cronie.service
+#exec systemctl --user enable cronie.service
+#exec systemctl --user start cronie.service
 exec systemctl --user enable pulseaudio
 exec systemctl --user start pulseaudio
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-#bar {
-#        status_command i3status
-#}
+bar {
+        status_command i3status
+}
 
 # ROFI SCRIPTS:
 
 # Rofi drun menu
-bindsym $mod+d exec "rofi -show run"
+#bindsym $mod+d exec "rofi -show run"
