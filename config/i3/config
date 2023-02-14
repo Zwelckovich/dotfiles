@@ -206,15 +206,15 @@ exec --no-startup-id nm-applet
 exec_always --no-startup-id feh --bg-scale ~/wallpaper/nebula.png
 
 # Damons
-#exec systemctl --user enable cronie.service
-#exec systemctl --user start cronie.service
+exec systemctl --user enable cronie.service
+exec systemctl --user start cronie.service
 exec systemctl --user enable pulseaudio
 exec systemctl --user start pulseaudio
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
-bar {
-        status_command i3status
-}
+#bar {
+#        status_command i3status
+#}
 
 # ROFI SCRIPTS:
 
