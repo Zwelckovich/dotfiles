@@ -18,9 +18,9 @@
 
   font:
     normal:
-      family: Noto Mono Nerd Font Complete
+      family: NotoMono Nerd Font Mono
     bold:
-      style: Noto Mono Nerd Font Complete
+      style: NotoMono Nerd Font Mono
 
   # Point size
     size: 12
