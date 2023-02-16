@@ -207,6 +207,11 @@ _G.packer_plugins = {
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
   },
+  ["vim-lichess"] = {
+    loaded = true,
+    path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/vim-lichess",
+    url = "https://github.com/luk400/vim-lichess"
+  },
   ["zen-mode.nvim"] = {
     loaded = true,
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/zen-mode.nvim",

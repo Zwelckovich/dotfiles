@@ -18,7 +18,7 @@ require('packer').startup(function(use)
     use { -- Highlight, edit, and navigate code
         'nvim-treesitter/nvim-treesitter',
         run = function()
-        pcall(require('nvim-treesitter.install').update { with_sync = true })
+            pcall(require('nvim-treesitter.install').update { with_sync = true })
         end,
     }
     use 'nvim-treesitter/nvim-treesitter-context'
@@ -27,21 +27,21 @@ require('packer').startup(function(use)
         branch = 'v1.x',
         requires = {
             -- LSP Support
-            {'neovim/nvim-lspconfig'},             -- Required
-            {'williamboman/mason.nvim'},           -- Optional
-            {'williamboman/mason-lspconfig.nvim'}, -- Optional
+            { 'neovim/nvim-lspconfig' }, -- Required
+            { 'williamboman/mason.nvim' }, -- Optional
+            { 'williamboman/mason-lspconfig.nvim' }, -- Optional
 
             -- Autocompletion
-            {'hrsh7th/nvim-cmp'},         -- Required
-            {'hrsh7th/cmp-nvim-lsp'},     -- Required
-            {'hrsh7th/cmp-buffer'},       -- Optional
-            {'hrsh7th/cmp-path'},         -- Optional
-            {'saadparwaiz1/cmp_luasnip'}, -- Optional
-            {'hrsh7th/cmp-nvim-lua'},     -- Optional
+            { 'hrsh7th/nvim-cmp' }, -- Required
+            { 'hrsh7th/cmp-nvim-lsp' }, -- Required
+            { 'hrsh7th/cmp-buffer' }, -- Optional
+            { 'hrsh7th/cmp-path' }, -- Optional
+            { 'saadparwaiz1/cmp_luasnip' }, -- Optional
+            { 'hrsh7th/cmp-nvim-lua' }, -- Optional
 
             -- Snippets
-            {'L3MON4D3/LuaSnip'},             -- Required
-            {'rafamadriz/friendly-snippets'}, -- Optional
+            { 'L3MON4D3/LuaSnip' }, -- Required
+            { 'rafamadriz/friendly-snippets' }, -- Optional
         }
     }
 
@@ -55,6 +55,7 @@ require('packer').startup(function(use)
     use 'eandrju/cellular-automaton.nvim' -- code destruction animation
     use 'laytan/cloak.nvim' -- hide code
     use 'ThePrimeagen/vim-be-good'
+    use 'luk400/vim-lichess'
     -- Add custom plugins to packer from ~/.config/nvim/lua/custom/plugins.lua
     local has_plugins, plugins = pcall(require, 'custom.plugins')
     if has_plugins then
