@@ -79,16 +79,6 @@ _G.packer_plugins = {
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/LuaSnip",
     url = "https://github.com/L3MON4D3/LuaSnip"
   },
-  ["cellular-automaton.nvim"] = {
-    loaded = true,
-    path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/cellular-automaton.nvim",
-    url = "https://github.com/eandrju/cellular-automaton.nvim"
-  },
-  ["cloak.nvim"] = {
-    loaded = true,
-    path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/cloak.nvim",
-    url = "https://github.com/laytan/cloak.nvim"
-  },
   ["cmp-buffer"] = {
     loaded = true,
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/cmp-buffer",
@@ -197,20 +187,10 @@ _G.packer_plugins = {
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/undotree",
     url = "https://github.com/mbbill/undotree"
   },
-  ["vim-be-good"] = {
-    loaded = true,
-    path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/vim-be-good",
-    url = "https://github.com/ThePrimeagen/vim-be-good"
-  },
   ["vim-fugitive"] = {
     loaded = true,
     path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/vim-fugitive",
     url = "https://github.com/tpope/vim-fugitive"
-  },
-  ["vim-lichess"] = {
-    loaded = true,
-    path = "/home/zwelch/.local/share/nvim/site/pack/packer/start/vim-lichess",
-    url = "https://github.com/luk400/vim-lichess"
   },
   ["zen-mode.nvim"] = {
     loaded = true,
